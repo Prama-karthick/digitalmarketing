@@ -1,0 +1,23 @@
+<h3>From test component</h3>
+<h4>Hello {{name}}</h4>
+<h4>{{name.length}}</h4>
+<h4>{{greetings()}}</h4>
+
+<h3>{{localsite}}</h3>
+<br><br><h2 [class]="successClass" [class]="successfont">{{name}}</h2><br><br>
+<h1 [ngClass]="superclass">Project</h1>
+
+<input #textinput type="text">
+<button (click)="flag1=textinput.value">Submit</button><br>
+{{flag1}}
+
+<br><br>
+<h1>event binding</h1>
+<br>
+<button (click)="onclick()">register</button><br>
+<h3 font-style="bold" font-size=.25px>{{flag}}</h3>
+
+<input [(ngModel)]="user" type="text">
+{{user}}
+<br><br>
+<button (click)="collectpoints()">COLLECT</button>
