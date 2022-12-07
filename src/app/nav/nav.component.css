@@ -1,6 +1,6 @@
 .spacing{
 	height:50;
-	background-color:#1111;
+	background-color:black;
 }
 
 
@@ -9,7 +9,12 @@
 }
 
 .sidenav .mat-toolbar {
-  background: green;
+  background:orange;
+}
+.start{
+	margin:50px;
+	background:white;
+	width:1300px;
 }
 
 .mat-toolbar.mat-primary {

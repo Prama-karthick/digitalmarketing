@@ -1,5 +1,11 @@
 .grid-container {
   margin: 20px;
+  color:orange;
+  font-family:"Castellar";
+}
+.mat-h1{
+	font-family:"Castellar";
+	font-size:60px;
 }
 
 .dashboard-card {

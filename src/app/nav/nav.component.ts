@@ -10,20 +10,11 @@ import { map, shareReplay } from 'rxjs/operators';
 })
 export class NavComponent {
 
-public choose ="home";
-/*public no="1";
-onclick1(){
- this.choose="home";
+public display=true;
+onclick(){
+this.display=false;
 }
-onclick2(){
- this.choose="services";
-}
-onclick3(){
- this.choose="about";
-}
-onclick4(){
- this.choose="conatct";
-}*/
+
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
